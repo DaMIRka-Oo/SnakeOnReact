@@ -1,0 +1,159 @@
+body{
+  max-width: 100%;
+}
+
+.game-area{
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000;
+}
+
+.snake-dot{
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #255004;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.snake-dot img{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.snake-food{
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: red;
+  border: 1px solid #fff;
+  z-index: 1;
+}
+
+.snake-food img{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.score{
+  position: relative;
+  /*left: 47%;*/
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.button-1 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  /*left: 46%;*/
+  font-size: 14px;
+  letter-spacing: .3em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+.button-1:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #32D4E2;
+  z-index: -1;
+  transition: .25s ease;
+  transform: translate(0, 0);
+}
+
+.button-1:hover:before {
+  transform: translate(4px, 4px);
+}
+
+.button-2 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 14px;
+  letter-spacing: .3em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 20% auto;
+
+}
+
+.button-2:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #F4880E;
+  z-index: -1;
+  transition: .25s ease;
+  transform: translate(0, 0);
+}
+
+.button-2:hover:before {
+  transform: translate(4px, 4px);
+}
+
+.button-3 {
+  color: #232323;
+  background: transparent;
+  border: 1px solid #232323;
+  position: relative;
+  /*left: 46%;*/
+  font-size: 14px;
+  letter-spacing: .3em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 17px 34px 17px 39px;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+}
+
+.button-3:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background: #F30E0E;
+  z-index: -1;
+  transition: .25s ease;
+  transform: translate(0, 0);
+}
+
+.button-3:hover:before {
+  transform: translate(4px, 4px);
+}
